@@ -1,0 +1,7 @@
+# ALIEVA LAW
+
+Статический сайт для Vercel без npm install. Просто загрузить в GitHub и подключить к Vercel.
+
+Форма `/api/contact` работает на Vercel. Для Telegram заявок добавить переменные:
+- TELEGRAM_BOT_TOKEN
+- TELEGRAM_CHAT_ID
