@@ -1,15 +1,12 @@
 {
-  "name": "alieva-lawyer",
+  "name": "alieva-law-no-network",
   "version": "1.0.0",
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "dev": "vite --host 0.0.0.0"
   },
   "dependencies": {},
-  "devDependencies": {
-    "vite": "5.4.11"
-  }
+  "devDependencies": {}
 }
