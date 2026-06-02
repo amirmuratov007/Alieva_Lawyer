@@ -1,7 +1,10 @@
 {
   "version": 2,
-  "routes": [
-    { "src": "/api/contact", "dest": "/api/contact.js" },
-    { "src": "/(.*)", "dest": "/$1" }
+  "buildCommand": "vite build",
+  "outputDirectory": "dist",
+  "installCommand": "npm install",
+  "framework": "vite",
+  "rewrites": [
+    { "source": "/api/contact", "destination": "/api/contact.js" }
   ]
 }
