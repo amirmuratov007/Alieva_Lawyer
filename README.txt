@@ -1,14 +1,3 @@
-ALIEVA LAW
+ALIEVA LAW v2
 
-Готовый проект для GitHub и Vercel.
-
-Сделан так, чтобы команда Vercel `vite build` проходила без скачивания пакетов из интернета.
-
-В проекте нет:
-- React
-- Tailwind
-- внешних библиотек
-- node_modules
-- скрытых файлов
-
-Есть локальный пакет local-vite, который создает папку dist из обычных файлов сайта.
+25 лет практики. Убраны лишние блоки. Добавлены consultation.html, services.html, price.html, новый logo.svg.
