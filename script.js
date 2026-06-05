@@ -1,5 +1,6 @@
 async function sendLead(form, statusEl) {
   const data = Object.fromEntries(new FormData(form).entries());
+  data.page = window.location.pathname;
   statusEl.textContent = "Отправляем заявку...";
   try {
     const response = await fetch("/api/contact", {
