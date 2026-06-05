@@ -1,8 +1,0 @@
-{
-  "name": "vite",
-  "version": "0.0.0-local",
-  "private": true,
-  "bin": {
-    "vite": "bin/vite.js"
-  }
-}
