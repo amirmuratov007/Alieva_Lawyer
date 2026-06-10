@@ -2,124 +2,126 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Юридические документы - Адвокат Алиева</title>
-  <meta name="description" content="Политики, согласия, NDA и документы сайта адвоката Алиевой.">
-  <meta name="theme-color" content="#0f172a">
-  <meta property="og:image" content="/assets/logo.png">
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/styles.css">
-<style id="legal-inline-fallback">
-.legal-wrap{max-width:1100px;margin:40px auto;padding:0 20px}
-.legal-card{background:#dfe7f1;border:1px solid #c7d2df;border-radius:24px;padding:24px;margin:18px 0}
-.legal-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
-.legal-doc-link{display:block;font-weight:700;color:#1d4ed8;margin-top:10px}
-.legal-muted{color:#475569;line-height:1.6}
-@media(max-width:800px){.legal-grid{grid-template-columns:1fr}}
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Документы - Адвокат Алиева</title>
+  <meta name="description" content="Юридические документы сайта адвоката Алиевой: политики, согласия, NDA, конфиденциальная информация.">
+  
+<style>
+:root{--bg:#e7ecf3;--card:#dfe7f1;--ink:#0f172a;--muted:#475569;--blue:#1d4ed8;--line:#c7d2df}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:var(--bg);color:var(--ink)}
+a{color:inherit;text-decoration:none}
+.header{background:#020617;color:#f1f5f9;padding:18px 24px}
+.header-inner{max-width:1120px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{font-weight:900;font-size:22px}
+.nav{display:flex;gap:16px;flex-wrap:wrap;color:#cbd5e1}
+.nav a:hover{color:#fff}
+.hero{padding:70px 24px;background:linear-gradient(135deg,#0f172a,#1e3a8a);color:#f1f5f9}
+.container{max-width:1120px;margin:0 auto}
+h1{font-size:clamp(38px,6vw,64px);line-height:1;margin:0 0 18px;letter-spacing:-.04em}
+h2{font-size:34px;margin:0 0 18px}
+p{line-height:1.7;color:var(--muted);font-size:18px}
+.hero p{color:#cbd5e1;max-width:780px}
+.section{padding:56px 24px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:24px}
+.card h3{margin:0 0 10px;font-size:23px}
+.card p{font-size:16px;margin:0 0 14px}
+.btn{display:inline-flex;background:#1d4ed8;color:#f1f5f9;border-radius:14px;padding:12px 16px;font-weight:800}
+.doclink{display:inline-flex;margin-left:8px;color:#1d4ed8;font-weight:800}
+.text{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:28px}
+.text h2{margin-top:26px}
+.text h2:first-child{margin-top:0}
+.footer{padding:36px 24px;background:#020617;color:#94a3b8}
+@media(max-width:800px){.grid{grid-template-columns:1fr}.header-inner{align-items:flex-start;flex-direction:column}}
 </style>
+
 </head>
 <body>
-  <header class="header">
-    <a href="/index.html#top" class="brand" aria-label="Адвокат Алиева"><img src="/assets/logo.png" alt="Адвокат Алиева - Право. Стратегия. Защита"></a>
-    <nav>
+
+<header class="header">
+  <div class="header-inner">
+    <a class="brand" href="/index.html">Адвокат Алиева</a>
+    <nav class="nav">
       <a href="/index.html">Главная</a>
-      <a href="/about.html">Об адвокате</a>
-      <a href="/cases.html">Кейсы</a>
       <a href="/consultation.html">Консультация</a>
       <a href="/services.html">Услуги</a>
       <a href="/price.html">Прайс</a>
-      <a href="/legal.html" class="active" class="active">Документы</a>
-      <a href="/index.html#contacts">Контакты</a>
+      <a href="/legal.html">Документы</a>
     </nav>
-    <a class="header-cta" href="/consultation.html">Записаться</a>
-  </header>
-  <main>
-  <section class="page-hero">
-    <div class="container">
-      <div class="page-label">Юридические документы</div>
-      <h1>Политики, согласия и документы сайта</h1>
-      <p>Раздел для клиентов: конфиденциальность, персональные данные, условия сайта, NDA и порядок обращения с информацией.</p>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <h1>Документы</h1>
+    <p>Политики, согласия, уведомления и шаблоны документов для сайта адвоката Алиевой.</p>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="grid">
+      <article class="card">
+      <h3>Политика конфиденциальности</h3>
+      <p>Как сайт обрабатывает обращения, техническую информацию и конфиденциальные сведения.</p>
+      <a class="btn" href="/legal/privacy.html">Открыть</a>
+      <a class="doclink" href="/documents/privacy.docx">Скачать Word</a>
+    </article>
+<article class="card">
+      <h3>Политика обработки персональных данных</h3>
+      <p>Порядок обработки минимальных персональных данных, полученных через формы сайта.</p>
+      <a class="btn" href="/legal/personal-data.html">Открыть</a>
+      <a class="doclink" href="/documents/personal-data.docx">Скачать Word</a>
+    </article>
+<article class="card">
+      <h3>Согласие на обработку персональных данных</h3>
+      <p>Текст согласия пользователя при отправке заявки через сайт.</p>
+      <a class="btn" href="/legal/personal-data-consent.html">Открыть</a>
+      <a class="doclink" href="/documents/personal-data-consent.docx">Скачать Word</a>
+    </article>
+<article class="card">
+      <h3>Уведомление об ограниченном хранении данных</h3>
+      <p>Отдельное уведомление о том, что сайт не хранит материалы дела и адвокатскую тайну.</p>
+      <a class="btn" href="/legal/no-storage.html">Открыть</a>
+      <a class="doclink" href="/documents/no-storage.docx">Скачать Word</a>
+    </article>
+<article class="card">
+      <h3>Соглашение о неразглашении</h3>
+      <p>Шаблон NDA для ситуаций, где нужно отдельно закрепить режим конфиденциальности.</p>
+      <a class="btn" href="/legal/nda.html">Открыть</a>
+      <a class="doclink" href="/documents/nda.docx">Скачать Word</a>
+    </article>
+<article class="card">
+      <h3>Положение о конфиденциальной информации</h3>
+      <p>Описание режима конфиденциальной информации и адвокатской тайны.</p>
+      <a class="btn" href="/legal/confidential-info.html">Открыть</a>
+      <a class="doclink" href="/documents/confidential-info.docx">Скачать Word</a>
+    </article>
+<article class="card">
+      <h3>Политика технических данных и cookie</h3>
+      <p>Информация о технических данных, cookie и аналитике сайта.</p>
+      <a class="btn" href="/legal/cookies.html">Открыть</a>
+      <a class="doclink" href="/documents/cookies.docx">Скачать Word</a>
+    </article>
+<article class="card">
+      <h3>Правовое уведомление и условия сайта</h3>
+      <p>Условия использования сайта и правовые ограничения информации.</p>
+      <a class="btn" href="/legal/terms.html">Открыть</a>
+      <a class="doclink" href="/documents/terms.docx">Скачать Word</a>
+    </article>
+<article class="card">
+      <h3>Форма отзыва согласия и удаления данных</h3>
+      <p>Шаблон обращения для отзыва согласия и удаления заявки.</p>
+      <a class="btn" href="/legal/withdrawal.html">Открыть</a>
+      <a class="doclink" href="/documents/withdrawal.docx">Скачать Word</a>
+    </article>
     </div>
-  </section>
-  <section class="section">
-    <div class="container">
-      <div class="section-title">
-        <span>Документы</span>
-        <h2>Все документы в одном разделе</h2>
-        <p>Документы доступны как страницы сайта и как файлы Word для скачивания.</p>
-      </div>
-      <div class="legal-grid">
-        <article>
-  <h3>Политика конфиденциальности</h3>
-  <p>Открыть страницу документа или скачать Word-файл.</p>
-  <a href="/legal/privacy.html">Открыть</a>
-  <a href="/documents/privacy.docx" download>Скачать DOCX</a>
-</article>
-<article>
-  <h3>Политика обработки персональных данных</h3>
-  <p>Открыть страницу документа или скачать Word-файл.</p>
-  <a href="/legal/personal-data.html">Открыть</a>
-  <a href="/documents/personal-data.docx" download>Скачать DOCX</a>
-</article>
-<article>
-  <h3>Согласие на обработку персональных данных</h3>
-  <p>Открыть страницу документа или скачать Word-файл.</p>
-  <a href="/legal/personal-data-consent.html">Открыть</a>
-  <a href="/documents/personal-data-consent.docx" download>Скачать DOCX</a>
-</article>
-<article>
-  <h3>Уведомление об ограниченном хранении данных</h3>
-  <p>Открыть страницу документа или скачать Word-файл.</p>
-  <a href="/legal/no-storage.html">Открыть</a>
-  <a href="/documents/no-storage.docx" download>Скачать DOCX</a>
-</article>
-<article>
-  <h3>Соглашение о неразглашении</h3>
-  <p>Открыть страницу документа или скачать Word-файл.</p>
-  <a href="/legal/nda.html">Открыть</a>
-  <a href="/documents/nda.docx" download>Скачать DOCX</a>
-</article>
-<article>
-  <h3>Положение о конфиденциальной информации</h3>
-  <p>Открыть страницу документа или скачать Word-файл.</p>
-  <a href="/legal/confidential-info.html">Открыть</a>
-  <a href="/documents/confidential-info.docx" download>Скачать DOCX</a>
-</article>
-<article>
-  <h3>Политика технических данных и cookie</h3>
-  <p>Открыть страницу документа или скачать Word-файл.</p>
-  <a href="/legal/cookies.html">Открыть</a>
-  <a href="/documents/cookies.docx" download>Скачать DOCX</a>
-</article>
-<article>
-  <h3>Правовое уведомление и условия сайта</h3>
-  <p>Открыть страницу документа или скачать Word-файл.</p>
-  <a href="/legal/terms.html">Открыть</a>
-  <a href="/documents/terms.docx" download>Скачать DOCX</a>
-</article>
-<article>
-  <h3>Форма отзыва согласия и удаления данных</h3>
-  <p>Открыть страницу документа или скачать Word-файл.</p>
-  <a href="/legal/withdrawal.html">Открыть</a>
-  <a href="/documents/withdrawal.docx" download>Скачать DOCX</a>
-</article>
-      </div>
-    </div>
-  </section>
-</main>
-  <footer>
-    <div class="container footer-grid">
-      <div><img class="footer-logo" src="/assets/logo.png" alt="Адвокат Алиева"><p>Юридическая защита частных клиентов, предпринимателей и бизнеса.</p></div>
-      <div><b>Контакты</b><a href="tel:+79035826353">8 903 582-63-53</a><span>Почта по запросу</span></div>
-      <div><b>Практика</b><span>Уголовная защита</span><span>Арбитраж</span><span>Семейные дела</span><span>Гражданские дела</span></div>
-      <div><b>Документы</b>
-        <a href="/legal/privacy.html">Конфиденциальность</a>
-        <a href="/legal/personal-data.html">Персональные данные</a>
-        <a href="/legal/no-storage.html">Ограниченное хранение</a>
-        <a href="/legal/nda.html">NDA</a>
-      </div>
-    <div><b>Быстрая связь</b><a class="footer-button" href="/consultation.html">Записаться</a></div></div>
-  </footer>
-  <script src="/script.js"></script>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">Адвокат Алиева - Право. Стратегия. Защита.</div>
+</footer>
+
 </body>
 </html>
